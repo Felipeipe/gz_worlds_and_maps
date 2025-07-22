@@ -1,0 +1,6 @@
+if [ -z "${GZ_SIM_RESOURCE_PATH}" ]; then
+    export GZ_SIM_RESOURCE_PATH="${HOME}/explorer_bot/src/gz_worlds_and_maps/world/src"
+else
+    export GZ_SIM_RESOURCE_PATH="${GZ_SIM_RESOURCE_PATH}:${HOME}/explorer_bot/src/gz_worlds_and_maps/world/src"
+fi
+
